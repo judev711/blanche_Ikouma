@@ -70,7 +70,7 @@ const ServicesContent = () => {
                 <div className={`border-2 border-[#EAC258] bg-cover ${service.bg} h-[400px] bg-gray-500 shadow-lg`}></div>
               </div>
 
-              {/* Animation sur le deuxième mapping */}
+              {/* Animation sur le deuxième mapping effect */}
               <div className="grid grid-cols-3 gap-6 mt-20 w-full max-sm:grid-cols-1 max-xl:grid-cols-2">
                 {service.Sdesc.map((desc, descIndex) => (
                   <div
